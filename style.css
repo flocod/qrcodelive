@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.qr-code {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.container-fluid {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.qr_containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  background: #000000;
+  border-radius: 3px;
+  
+}
+
+.content_write{
+    display: block;
+    height: 35px;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
